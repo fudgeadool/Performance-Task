@@ -5,6 +5,9 @@ def math(numbers):
   print("Hello! Welcome to this math game! You have to get 3 questions correct to win! Good luck!")
   computer = random.choice(numbers)
   print("Question #1:", computer, "+" , computer)
+  ok =input("What is the answer?" )
+  if ok == computer + computer:
+    print("Correct!")
 
 
 math(numbers)
