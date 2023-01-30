@@ -6,8 +6,10 @@ def math(numbers):
   computer = random.choice(numbers)
   print("Question #1:", computer, "+" , computer)
   ok =input("What is the answer?" )
-  if ok == computer + computer:
+  if int == computer + computer:
     print("Correct!")
+  else: 
+    print("WRONG")
 
 
 math(numbers)
